@@ -92,12 +92,12 @@ export default {
 }
 
 .title-category-type{
-    width: 8%;
+    width: 18%;
 }
 
 .title-category-link{
     background: blue;
-    width: 92%;
+    width: 82%;
     margin-bottom: 5px;
 }
 
@@ -115,29 +115,29 @@ export default {
     margin-top: 5px;
     margin-bottom: 50px;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     padding: 0;
 }
 
 .destaque-music{
-    width: 25%;
+    width: 100%;
     justify-content: space-between;
     /*background: darkblue;*/
     margin: 0%;
-    margin-right: 10px;
+    /* margin-right: 10px; */
     padding-top: 10px;
     padding-right: 25px;
     padding-bottom: 10px;
     padding-left: 25px;
     text-align: center;
     background-size: 100 100;
+    margin-top: 5px;
+    margin-bottom: 3px;
 }
 
-
-
-.destaque-music:last-child{
+/* .destaque-music:last-child{
     margin: 0;
-}
+} */
 
 .destaque-music h3{
     /*background: greenyellow;*/
@@ -164,8 +164,189 @@ export default {
     background: orange;
 }
 
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+
+.title-category-type{
+    width: 18%;
+}
+
+.title-category-link{
+    background: blue;
+    width: 82%;
+    margin-bottom: 5px;
+}
+
+#detalhe-destaque-musica{
+    width: 100%;
+    margin-left: 12px;
+    margin-top: 5px;
+    margin-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+}
+
+.destaque-music{
+    width: 100%;
+    justify-content: space-between;
+    /*background: darkblue;*/
+    margin: 0%;
+    margin-right: 10px;
+    padding-top: 10px;
+    padding-right: 25px;
+    padding-bottom: 10px;
+    padding-left: 25px;
+    text-align: center;
+    background-size: 100 100;
+    margin-top: 5px;
+    margin-bottom: 3px;
+}
+
+/* .destaque-music:last-child{
+    margin: 0;
+} */
+
+}
+
+    /* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+
+.title-category-type{
+    width: 18%;
+}
+
+.title-category-link{
+    background: blue;
+    width: 82%;
+    margin-bottom: 5px;
+}
+
+#detalhe-destaque-musica{
+    width: 100%;
+    margin-left: 12px;
+    margin-top: 5px;
+    margin-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+}
+
+.destaque-music{
+    width: 100%;
+    justify-content: space-between;
+    /*background: darkblue;*/
+    margin: 0%;
+    margin-right: 10px;
+    padding-top: 10px;
+    padding-right: 25px;
+    padding-bottom: 10px;
+    padding-left: 25px;
+    text-align: center;
+    background-size: 100 100;
+    margin-top: 5px;
+    margin-bottom: 3px;
+}
+
+/* .destaque-music:last-child{
+    margin: 0;
+} */
+
+}
+
+    /* Medium devices (landscape tablets, 768px and up)*/ 
+@media only screen and (min-width: 768px) {
+
+.title-category-type{
+    width: 8%;
+}
+
+.title-category-link{
+    background: blue;
+    width: 92%;
+    margin-bottom: 5px;
+}
+
+#detalhe-destaque-musica{
+    width: 100%;
+    margin-left: 12px;
+    margin-top: 5px;
+    margin-bottom: 50px;
+    display: flex;
+    flex-direction: row;
+    padding: 0;
+}
+
+.destaque-music{
+    width: 100%;
+    justify-content: space-between;
+    /*background: darkblue;*/
+    margin: 0%;
+    margin-right: 10px;
+    padding-top: 10px;
+    padding-right: 25px;
+    padding-bottom: 10px;
+    padding-left: 25px;
+    text-align: center;
+    background-size: 100 100;
+    margin-top: 5px;
+    margin-bottom: 3px;
+}
+
+.destaque-music:last-child{
+    margin: 0;
+}
+
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+
+.title-category-type{
+    width: 8%;
+}
+
+.title-category-link{
+    background: blue;
+    width: 92%;
+    margin-bottom: 5px;
+}
+
+#detalhe-destaque-musica{
+    width: 100%;
+    margin-left: 12px;
+    margin-top: 5px;
+    margin-bottom: 50px;
+    display: flex;
+    flex-direction: row;
+    padding: 0;
+}
+
+.destaque-music{
+    width: 100%;
+    justify-content: space-between;
+    /*background: darkblue;*/
+    margin: 0%;
+    margin-right: 10px;
+    padding-top: 10px;
+    padding-right: 25px;
+    padding-bottom: 10px;
+    padding-left: 25px;
+    text-align: center;
+    background-size: 100 100;
+    margin-top: 5px;
+    margin-bottom: 3px;
+}
+
+.destaque-music:last-child{
+    margin: 0;
+}
 
 
+}
+
+    /* Extra large devices (large laptops and desktops, 1200px and up) 
+    @media only screen and (min-width: 1200px) {...}*/
 
 
 
